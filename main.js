@@ -1,32 +1,4 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
-import 'font-awesome/css/font-awesome.min.css'
 
-
-// document.querySelector('#app').innerHTML = `
-//   <div>
-//     <a href="https://vitejs.dev" target="_blank">
-//       <img src="${viteLogo}" class="logo" alt="Vite logo" />
-//     </a>
-//     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-//       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-//     </a>
-//     <h1>Hello Vite!</h1>
-//     <div class="card">
-//       <button id="counter" type="button"></button>
-//     </div>
-//     <p class="read-the-docs">
-//       nothing here 
-//     </p>
-//   </div>
-// `
-
-// setupCounter(document.querySelector('#counter'))
-
-
-// Replace 'YOUR_API_KEY' with your actual Pexels API key
 const apiKey = '4OLvd5Qn46oA4lwWIOwUG1Td5Chl45LQiMCFUZparv1v6EytAUXkYmw5';
 const apiUrl = 'https://api.pexels.com/videos/search';
 
